@@ -1,38 +1,100 @@
 .App {
   text-align: center;
+  margin: 0;
+  font-family: 'Space Mono', monospace;
+  font-size: 17px;
+  color: #ffffff;
+  line-height: 1.6;
+  text-shadow: 2px 2px #7f7f7f;
+}
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bgImage{
+  background-image: url("../bg2.png");
+  background-color: #262626;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index:-1;
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.questionCard{
+  background-color: rgba(145, 191, 213, 0.6);
+  padding: 4vh;
+  width: 90vh;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 16px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+  rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  border: rgba(255, 255, 255, 0.5) solid 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+ul{
+  list-style: none; /*removes bullet points*/
+}
+
+li{
+  background-color: lightblue;
+  padding: 16px;
+  border: 3px solid white;
+  border-radius: 20px;
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+.questionText{
+  font-size:30px;
+
+}
+
+.finalCard{
+  background-color: rgba(145, 191, 213, 0.6);
+  padding: 4vh;
+  width: 70vh;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 16px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+  rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  border: rgba(255, 255, 255, 0.5) solid 5px;
+}
+
+button{
+  background-color: rgba(255, 255, 255, 0.5); /* Green */
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+  rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+
+  border-radius: 24px;
+}
+a:link {
+  text-decoration: none;
+  color: inherit;
 }
 
-.App-link {
-  color: #61dafb;
+a:visited {
+  text-decoration: none;
+  color: inherit;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:active {
+  text-decoration: none;
+}
+
+.back{
+  text-align: left;
+  font-size: 17px;
 }
