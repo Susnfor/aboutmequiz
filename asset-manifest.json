@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/aboutmequiz/static/css/main.c2a48e3d.css",
+    "main.js": "/aboutmequiz/static/js/main.dbbcb952.js",
+    "static/media/bg2.png": "/aboutmequiz/static/media/bg2.f71d0746ba0b84a07080.png",
+    "index.html": "/aboutmequiz/index.html",
+    "main.c2a48e3d.css.map": "/aboutmequiz/static/css/main.c2a48e3d.css.map",
+    "main.dbbcb952.js.map": "/aboutmequiz/static/js/main.dbbcb952.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2a48e3d.css",
+    "static/js/main.dbbcb952.js"
+  ]
+}
